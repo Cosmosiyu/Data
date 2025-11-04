@@ -50,7 +50,7 @@ Le pipeline complet du projet est illustré ci-dessous
    - Index de la critique similaire  
    - Score de similarité  
    - Film d’origine  
-   - Extrait du texte (100 premiers caractères)
+   - Texte complet
 
 ## 4. Exécution du Notebook
 **Prérequis**
@@ -69,7 +69,7 @@ pip install pandas scikit-learn nltk beautifulsoup4
 
 3. Modifier la variable :
 ```python
-target = 'interstellar'   # ou 'movie_A'
+target = 'interstellar'   # ou 'fightclub'
 ```
 
 pour basculer entre les deux films.
